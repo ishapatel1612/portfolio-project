@@ -4,28 +4,41 @@
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
-
-h1 {
+h1,
+h2 {
   font-family: var(--heading-font);
+}
+h1 {
   font-size: 96px;
   font-weight: 700;
 }
+h2 {
+  font-size: 64px;
+}
 h3,
 h4,
-a {
+a,
+p {
   font-family: var(--default-font);
 }
 h3 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 600;
   color: #272142;
 }
 h4 {
   font-weight: normal;
   font-size: 24px;
   color: #272142;
+  margin: 0;
+  line-height: 2;
 }
-a {
+p {
+  font-size: 16px;
+  line-height: 2rem;
+  font-weight: 400;
+}
+#contact-me {
   font-weight: 500;
   padding: 18px 30px;
   border-radius: 4px;
@@ -34,16 +47,46 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
+#contact-me:hover {
   cursor: pointer;
   color: black;
-}
-.heading h3 {
-  margin: 0;
-  line-height: 2;
 }
 .heading {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 160px 20px;
+}
+#view-project {
+  border: 1px solid var(--brand-color);
+  padding: 18px 30px;
+  text-decoration: none;
+  color: var(--brand-color);
+  border-radius: 4px;
+  font-size: 18px;
+}
+.center-margin {
+  padding-left: 60px;
+}
+.row-margin {
+  padding-bottom: 100px;
+}
+@media (max-width: 960px) {
+  .container {
+    text-align: center;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 34px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .heading {
+    padding: 80px 10px;
+  }
 }
