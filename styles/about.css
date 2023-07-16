@@ -32,11 +32,12 @@ h2 {
   font-size: 48px;
   margin: 0;
 }
-a, footer {
+a,
+footer {
   font-family: var(--default-font);
 }
 footer {
-    text-align: center;
+  text-align: center;
 }
 .homepage-link {
   display: block;
@@ -66,7 +67,6 @@ footer {
 .enquiries {
   text-align: center;
   background-color: var(--secondary-color);
-  
 }
 @media (max-width: 960px) {
   h1 {
@@ -81,3 +81,4 @@ footer {
   .email-link {
     font-size: 20px;
   }
+}
