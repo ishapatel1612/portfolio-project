@@ -1,0 +1,83 @@
+:root {
+  --brand-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  --heading-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: var(--heading-font);
+}
+h1 {
+  font-size: 96px;
+  margin: 0;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin: 0;
+}
+p {
+  margin: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--default-font);
+}
+h2 {
+  font-size: 48px;
+  margin: 0;
+}
+a, footer {
+  font-family: var(--default-font);
+}
+footer {
+    text-align: center;
+}
+.homepage-link {
+  display: block;
+  text-align: center;
+  color: var(--brand-color);
+}
+.paragraphs {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.paragraphs p {
+  flex: 1;
+  margin: 10px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--brand-color);
+}
+.email-link:hover {
+  color: #0b58ca;
+  text-decoration: underlinse;
+}
+.enquiries {
+  text-align: center;
+  background-color: var(--secondary-color);
+  
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 27px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
