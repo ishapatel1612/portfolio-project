@@ -18,7 +18,8 @@ h2 {
 h3,
 h4,
 a,
-p {
+p,
+footer {
   font-family: var(--default-font);
 }
 h3 {
@@ -38,6 +39,10 @@ p {
   line-height: 2rem;
   font-weight: 400;
 }
+footer {
+  text-align: center;
+}
+
 #contact-me {
   font-weight: 500;
   padding: 18px 30px;
